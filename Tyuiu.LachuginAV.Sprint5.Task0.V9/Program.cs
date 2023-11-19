@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Tyuiu.LachuginAV.Sprint5.Task0.V9.Lib;
 
 namespace Tyuiu.LachuginAV.Sprint5.Task0.V9
-{
+{ 
     internal class Program
     {
         static void Main(string[] args)

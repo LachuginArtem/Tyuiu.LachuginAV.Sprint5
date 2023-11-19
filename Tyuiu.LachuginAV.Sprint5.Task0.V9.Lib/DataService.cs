@@ -13,7 +13,7 @@ namespace Tyuiu.LachuginAV.Sprint5.Task0.V9.Lib
         public string SaveToFileTextData(int x)
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
-            double y = Math.Round(Math.Pow(x, 3) / ((Math.Pow((x), 2) - 2 )), 3);
+            double y = Math.Round(Math.Pow(x, 3) / ((Math.Pow((x), 2) - 2 )), 3); 
             File.WriteAllText(path, Convert.ToString(y));
             return path;
         }
